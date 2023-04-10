@@ -1,12 +1,12 @@
 const findKey = ((object, callback) => {
-  let keyValue;
+  let output;
   for (let key in object) {
     if (callback(object[key])) {
-        keyValue = key;
-
+      output = key;
     }
-  } console.log(keyValue)
-  return
+  } 
+  console.log(output);
+  return;
 });
   
 findKey({

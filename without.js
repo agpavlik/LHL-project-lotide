@@ -1,27 +1,8 @@
-const assertArrayEqual = function(actual, expected) {
-  let output = eqArray(actual, expected);
-  if (output === true) {
-    console.log(`✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`❌ Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
-
-const eqArrays = function(actual, expected) {
-  let output = true;
-  for (let i = 0; i < actual.length; i++) {
-    if (actual[i] !== expected[i]) {
-      output = false;
-    }
-    
-  } console.log (output);
-  return output;
-};
 
 let without = function (source, itemsToRemove ) {
-// make a copy of source
+// create a copy of source
   let sourceWithout = source.slice(0);
-// compare all the elements of two arrays
+// compare all the elements of two given arrays
   for (let i = 0 ; i < sourceWithout.length; i++) {
     for (let j = 0 ; j < itemsToRemove.length; j++) {
 // remove elements that match itemsToRemove from sourceWithout
@@ -30,7 +11,7 @@ let without = function (source, itemsToRemove ) {
       } 
     
     } 
-  } console.log (sourceWithout); 
+  } console.log (sourceWithout); // check 
   return sourceWithout; 
 }
 
