@@ -1,6 +1,10 @@
-const assertEqual = function(actual) {
-  let tile = actual.slice(1);
-  console.log(tile);
+const tail = function(actual) {
+  let tailI = actual.slice(1);
+  return tailI;
 };
-assertEqual([5,6,7]);
-assertEqual(["Hello", "Lighthouse", "Labs"]);
+
+
+//console.log(tail([5,6,7]));
+//console.log(tail(["Hello", "Lighthouse", "Labs"]));
+
+module.exports = tail;
