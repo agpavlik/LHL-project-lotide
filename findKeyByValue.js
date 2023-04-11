@@ -16,5 +16,7 @@ const findKeyByValue = (obj, string) => {
   return keyValue;
 }; 
 
-console.log(findKeyByValue(bestTVShowsByGenre, "The Wire")) /// "drama";
-console.log(findKeyByValue(bestTVShowsByGenre, "That '70s Show")) // undefined;
+module.exports = findKeyByValue;
+
+//console.log(findKeyByValue(bestTVShowsByGenre, "The Wire")) /// "drama";
+//console.log(findKeyByValue(bestTVShowsByGenre, "That '70s Show")) // undefined;

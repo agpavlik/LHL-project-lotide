@@ -25,11 +25,11 @@ const firstNames = [
   "Joe"
 ];
 
-const result1 = countOnly(firstNames, { "Jason": true, "Karima": true, "Fang": true, "Agouhanna": false });
-
 /*
 countOnly(result1["Jason"], 1);
 countOnly(result1["Karima"], undefined);
 countOnly(result1["Fang"], 2);
 countOnly(result1["Agouhanna"], undefined);
 */
+
+module.exports = countOnly;

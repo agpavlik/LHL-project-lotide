@@ -12,7 +12,7 @@ const countLetters = function (strings){
   return output;
 };
 
-countLetters("lighthouse in the house")
+//countLetters("lighthouse in the house")
 /*
 {
   l: 1,
@@ -26,3 +26,5 @@ countLetters("lighthouse in the house")
   e: 3,
   n: 1,
 }*/
+
+module.exports = countLetters;

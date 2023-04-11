@@ -7,4 +7,6 @@ const map = function(array, callback) {
   }
   return results;
 }
- console.log(results)
+// console.log(results)
+
+module.exports = map;
